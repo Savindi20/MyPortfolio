@@ -1,0 +1,32 @@
+.icon-menu ul a{
+    color:black;
+    width: 100%;
+    padding: 10px 10px ;
+    transition: 0.2s;
+    font-size: 30px; 
+    border-radius: 50px;
+}
+.icon-menu ul a:hover{
+    background: red
+    }
+    .icon-menu ul{
+        list-style-type: none;
+     }
+     .icon-menu{
+        width: 100px;
+       
+        background:red ;
+        /* overflow: auto;    */
+         /*to controal foloat*/
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         padding: 0px;
+         gap: 11px;
+         
+         position: absolute;
+         width: 60px;
+         /* height: 3px; */
+         left: 1200px;
+         top: 360px;
+    }
