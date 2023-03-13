@@ -89,7 +89,7 @@ background-repeat: no-repeat;
    font-size: 1.5rem;
    padding-left: 50px;
 }
-button{
+.hire{
    width: 200px;
    height: 60px;
    margin-left: 50px;
@@ -104,6 +104,46 @@ button{
    font-size: 30px;
    
 }
-button:hover{
+.hire:hover{
    background: #C69749;
 }
+
+/* ========================== done======================================== */
+
+/* about me */
+.about{
+   /* background-color: #0C0800; */
+   /* background-color: green; */
+   height: 100vh;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.about .photo img{
+   /* padding-top: 125px;
+   padding-left: 50px; */
+   margin-top: 125px;
+   margin-left: 50px;
+   border-radius: 0px 20px 0px 20px;
+   border: 5px solid #C69749;
+
+}
+.about .photo img:hover{
+   transform: scale(1.1);
+}
+.about .details{
+ margin: 0;
+ padding: 5px;
+ background-color: aquamarine;
+ position: relative;
+}
+
+.about .details .box{
+  
+}
+.about .details .box p{
+  
+}
+
