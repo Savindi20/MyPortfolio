@@ -112,18 +112,22 @@ background-repeat: no-repeat;
 
 /* about me */
 .about{
-   /* background-color: #0C0800; */
-   /* background-color: green; */
+   background: #0C0800;
    height: 100vh;
    width: 100%;
-   background-size: cover;
+ 
+   /* background-size: cover;
    background-position: center;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; */
+   position: relative;
+   display: flex;
+   flex-direction: row;
 }
 
 .about .photo img{
    /* padding-top: 125px;
    padding-left: 50px; */
+  
    margin-top: 125px;
    margin-left: 50px;
    border-radius: 0px 20px 0px 20px;
@@ -136,14 +140,83 @@ background-repeat: no-repeat;
 .about .details{
  margin: 0;
  padding: 5px;
- background-color: aquamarine;
- position: relative;
+ background: rgba(115, 95, 50, 0.4);
+ /* position: relative; */
+ /* height: 400px;
+ width: 650px; */
+/* width: 600px;
+ height: 500px;
+ margin-left: 600px;
+ border-radius: 20px; */
+ margin-top: 100px;
+ border-radius: 20px;
+ margin-right: 80px;
+ margin-bottom: 40px;
+
+ 
 }
 
 .about .details .box{
   
 }
-.about .details .box p{
+.about .details p{
+   color: #e7e1e1;
+   font-family: 'Inter';
+   font-style:initial;
+   padding: 30px;
+   font-size: 20px;
   
 }
+.about .icon-menu{
+   overflow: hidden;
+   position: flex;
+   gap: 15px;
+   text-decoration: none;
 
+}
+.about .icon-menu i{
+   color: #C69749;
+   font-size: 25px;
+   margin-left: 20px;
+   margin-bottom: 15px;
+   text-decoration: none;
+}
+.about .icon-menu a{
+   font-size: 18px;
+   color: #e7e1e1;
+   margin-left: 5px;
+   margin-bottom: 15px;
+}
+ .dovnload-cv{
+width: 230px;
+height: 50px;
+margin-top: 30px;
+background: #0C0800;
+margin-left: 350px;
+margin-right: 30px;
+font-family: 'Inter';
+font-weight: bold;
+text-decoration: none;
+border: none;
+font-size: 18px;
+border-radius: 30px;
+border-style: none;
+
+}
+.dovnload-cv i{
+ font-size: 14px;
+/* padding-right: 10px; */
+padding-top: 0px;
+/* margin-right: 80px; */
+position: absolute;
+padding-left: 100px;
+margin-right: 40px;
+
+}
+.dovnload-cv a{
+   font-size: 18px;
+
+}
+.icon-menu li{
+   list-style: none;
+}
