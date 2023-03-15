@@ -138,7 +138,7 @@ background-repeat: no-repeat;
    transform: scale(1.1);
 }
 .about .details{
- margin: 0;
+ margin: 5;
  padding: 5px;
  background: rgba(115, 95, 50, 0.4);
  /* position: relative; */
@@ -156,9 +156,6 @@ background-repeat: no-repeat;
  
 }
 
-.about .details .box{
-  
-}
 .about .details p{
    color: #e7e1e1;
    font-family: 'Inter';
@@ -172,6 +169,8 @@ background-repeat: no-repeat;
    position: flex;
    gap: 15px;
    text-decoration: none;
+   padding-left: 30px;
+   margin-top: 20px;
 
 }
 .about .icon-menu i{
@@ -187,6 +186,7 @@ background-repeat: no-repeat;
    margin-left: 5px;
    margin-bottom: 15px;
    padding-right: 20px;
+   margin-right: 20px;
 }
  .dovnload-cv{
 width: 230px;
@@ -220,4 +220,7 @@ margin-right: 40px;
 }
 .icon-menu li{
    list-style: none;
+}
+a{
+   text-decoration: none;
 }
