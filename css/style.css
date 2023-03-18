@@ -315,4 +315,69 @@ a{
 .skillsTools .img-container .logo:hover img {
    transform: scale(1.2);
 }
+.myProject{
+   background-color: #160E00;
+}
+.myProject .row {
+   display: flex;
+   /* align-items: center;
+   justify-content: center; */
+   position: absolute;
+   margin-top: 85px;
+   margin-left: 80px;
+   transform: translate(-50%, -50%);
+   padding-left: 75rem;
+
+}
+
+.myProject .col {
+   flex-direction: column;
+   text-align: center;
+   color: #000000;
+   padding: 2px;
+}
+
+.myProject .col .counter-box {
+   background-color: black;
+   padding: 20px 70px;
+   border-radius: 1rem;
+   border: 1px solid #FFFFFF;
+   border-radius: 20px;
+   /* box-shadow: 0 0 20px -6px #FCC419; */
+}
+
+.myProject .col .counter-box i {
+   color: #C69749;
+   font-size: 2rem
+}
+
+.myProject .col .counter-box h2 {
+   color: white;
+   font-size: 26px;
+   padding-top: 10px;
+}
+/* end counter list */
+
+.myProject .project-zone{
+   padding-top: 12rem;
+   
+} 
+/* see more started */
+/* click-Here */
+
+.myProject .click-Here h5 {
+   color: #fff;
+   font-family: initial;
+}
+
+.myProject .click-Here {
+   padding-left: 50%;
+   padding-top: 3rem;
+   padding-bottom: 30px;
+}
+
+.myProject .click-Here img:hover {
+   margin-bottom: 60px;
+   transform: scale(1.2);
+}
 
