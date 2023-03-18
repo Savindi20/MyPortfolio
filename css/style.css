@@ -156,9 +156,6 @@ background-repeat: no-repeat;
  
 }
 
-.about .details .box{
-  
-}
 .about .details p{
    color: #e7e1e1;
    font-family: 'Inter';
@@ -186,6 +183,7 @@ background-repeat: no-repeat;
    color: #e7e1e1;
    margin-left: 5px;
    margin-bottom: 15px;
+   padding-right: 20px;
 }
  .dovnload-cv{
 width: 230px;
@@ -219,4 +217,95 @@ margin-right: 40px;
 }
 .icon-menu li{
    list-style: none;
+}
+a{
+   text-decoration: none;
+}
+.skillsTools .box-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 1rem 0;
+   padding-left: 3rem;
+}
+
+.skillsTools .box-container .box {
+   /* width:27rem; */
+   /* margin:4rem 1rem; */
+   /* padding-left: 4rem; */
+   /* border-left: .2rem solid #fff; */
+   position: relative;
+}
+
+.skillsTools{
+   background-color: #110B00;
+}
+
+.skillsTools .box-container .box span {
+   font-size: 1.5rem;
+   background: #222;
+   color: #fff;
+   border-radius: 5rem;
+   padding: .5rem 2.5rem;
+}
+
+.skillsTools .box-container .box h3 {
+   font-size: 1rem;
+   color: #fff;
+   padding-top: 1.5rem;
+}
+
+.skillsTools .box-container .box i {
+   position: absolute;
+   top: -0.5rem;
+   left: -1.7rem;
+   height: 3rem;
+   width: 3rem;
+   border-radius: 50%;
+   line-height: 3rem;
+   text-align: center;
+   font-size: 2rem;
+   color: black;
+   background: #C69749;;
+}
+
+.skillsTools .box-container .box {
+   margin: 2rem 1rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   border-left: 0.2rem solid #fff;
+   position: relative;
+   border-style: dotted;
+
+}
+
+.skillsTools .img-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   /* padding: 2rem 0; */
+   
+}
+
+.skillsTools .img-container .logo {
+   border-radius: 1rem;
+   margin: 1.5rem;
+   overflow: hidden;
+   cursor: pointer;
+   width: 70px;
+   height: 70px;
+
+}
+
+.skillsTools .img-container .logo img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+
+}
+
+.skillsTools .img-container .logo:hover img {
+   transform: scale(1.2);
 }
