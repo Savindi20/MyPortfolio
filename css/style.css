@@ -186,10 +186,9 @@ background-repeat: no-repeat;
    margin-left: 5px;
    margin-bottom: 15px;
    padding-right: 20px;
-<<<<<<< HEAD
-=======
+
    margin-right: 20px;
->>>>>>> 3286bb0fedc7d98cc675a1d6718aae3a4f70c246
+
 }
  .dovnload-cv{
 width: 230px;
@@ -226,7 +225,7 @@ margin-right: 40px;
 }
 a{
    text-decoration: none;
-<<<<<<< HEAD
+
 }
 .skillsTools .box-container {
    display: flex;
@@ -316,6 +315,4 @@ a{
 .skillsTools .img-container .logo:hover img {
    transform: scale(1.2);
 }
-=======
-}
->>>>>>> 3286bb0fedc7d98cc675a1d6718aae3a4f70c246
+
