@@ -357,10 +357,18 @@ a{
    padding-top: 10px;
 }
 /* end counter list */
+ .myProject .row-project{
+   margin-left: 80px;
+   /* transform: translate(-50%, -50%); */
+   padding-top: 0rem;
+   padding-left: 75rem;
+} */
 
-.myProject .project-zone{
-   padding-top: 12rem;
-   
+.myProject .col-project{
+   flex-direction: column;
+   text-align: center;
+   color: #000000;
+   padding: 2px;
 } 
 /* see more started */
 /* click-Here */
