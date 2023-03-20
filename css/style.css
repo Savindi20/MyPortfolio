@@ -357,21 +357,41 @@ a{
    padding-top: 10px;
 }
 /* end counter list */
- .myProject .row-project{
-   margin-left: 80px;
-   /* transform: translate(-50%, -50%); */
-   padding-top: 0rem;
-   padding-left: 75rem;
-} */
 
-.myProject .col-project{
-   flex-direction: column;
-   text-align: center;
-   color: #000000;
-   padding: 2px;
+ .myProject .row-project{
+   display: flex;
+   flex-direction: row;
+   position: relative;
 } 
-/* see more started */
-/* click-Here */
+
+.myProject .row-project .col-project{
+   border: 2px solid #C69749;
+   border-radius: 30px;
+   width: 20%;
+   height: 15rem;
+   margin-top: 13rem;
+   margin-right: 1.5rem;
+   margin-left: 1.5rem;
+   padding: 1rem;
+} 
+.myProject .row-project .col-project a h3:hover{
+   color: #C69749;
+   transform: scale(1.1);
+}
+
+.myProject .row-project .col-project a h3{
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   margin-top: 1rem;
+}
+.myProject .row-project .col-project img{
+   border-radius: 50%;
+   width: 8rem;
+   height: auto;
+ margin-top: 2rem;
+ margin-left: 4rem;
+}
 
 .myProject .click-Here h5 {
    color: #fff;
@@ -386,9 +406,20 @@ a{
 
 .myProject .click-Here img:hover {
    margin-bottom: 60px;
-   transform: scale(1.2);
+   transform: scale(1.1);
 }
 /* ============== services =============== */
-.myProject .myservices {
-   background: #1B1100;
+.myService{
+   background-color: #1B1100;
+}
+.myService .rowService{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+}
+.myService .rowService .colService{
+   border: 2px solid red;
+   width: 30%;
+
+
 }
