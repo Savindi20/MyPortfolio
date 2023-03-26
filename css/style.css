@@ -51,11 +51,11 @@
    flex-direction: row;
    padding: 0px;
    gap: 11px;
-   position: absolute;
+   /* position: absolute; */
    width: 60px;
-   top: 570px;
-   margin-left: 1000px;
-
+   /* top: 500px; */
+   margin-top: -3.1rem;
+   margin-left: 1030px;
 }
 .social-icon-menu ul{
    list-style: none;
@@ -67,6 +67,7 @@
    font-size: 30px;
    border-radius: 50px;
    transition: 0.2s;
+  
 }
 .social-icon-menu ul a:hover{
    background: #C69749;
