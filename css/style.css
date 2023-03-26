@@ -7,9 +7,9 @@
    /* background-color: green; */
    height: 100vh;
    width: 100%;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 
   
    }
@@ -120,7 +120,7 @@ background-repeat: no-repeat;
    /* background-size: cover;
    background-position: center;
    background-repeat: no-repeat; */
-   position: relative;
+   /* position: relative; */
    display: flex;
    flex-direction: row;
 }
@@ -237,13 +237,13 @@ a{
    padding-left: 3rem;
 }
 
-.skillsTools .box-container .box {
+/* .skillsTools .box-container .box {
    /* width:27rem; */
    /* margin:4rem 1rem; */
    /* padding-left: 4rem; */
    /* border-left: .2rem solid #fff; */
-   position: relative;
-}
+   /* position: relative; 
+} */
 
 .skillsTools{
    background-color: #110B00;
@@ -362,7 +362,7 @@ a{
  .myProject .row-project{
    display: flex;
    flex-direction: row;
-   position: relative;
+   /* position: relative; */
 } 
 
 .myProject .row-project .col-project{
@@ -390,8 +390,8 @@ a{
    border-radius: 50%;
    width: 8rem;
    height: auto;
- margin-top: 2rem;
- margin-left: 4rem;
+   margin-top: 2rem;
+   margin-left: 4rem;
 }
 
 .myProject .click-Here h5 {
@@ -416,7 +416,7 @@ a{
 .myService .rowService{
    display: flex;
    flex-direction: row;
-   position: relative;
+   /* position: relative; */
 }
 .myService .rowService .colService{
    border: 2px solid red;
