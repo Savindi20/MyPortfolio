@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/* ================header starting ==================== */
 .cover{
    background-image: url('/asset/images/2.jpg');
    /* background-color: green; */
@@ -13,6 +14,7 @@
 
   
    }
+/* ================Nav starting ==================== */
 .cover .nav{
 
    overflow: hidden;
@@ -43,7 +45,7 @@
     
 
  }
- 
+/* ================Social icon-menu starting ==================== */
 .social-icon-menu{
    width: 100px;
    display: flex;
@@ -111,7 +113,7 @@
 
 /* ========================== done======================================== */
 
-/* about me */
+/* ================About Me starting ==================== */
 .about{
    background-color: #0C0800;
    /* height: 100vh;
@@ -228,6 +230,7 @@ a{
    text-decoration: none;
 
 }
+/* ================Skills&Tools starting ==================== */
 .skillsTools .box-container {
    display: flex;
    align-items: center;
@@ -316,6 +319,7 @@ a{
 .skillsTools .img-container .logo:hover img {
    transform: scale(1.2);
 }
+/* ================Projects starting ==================== */
 .myProject{
    background-color: #160E00;
 }
@@ -359,7 +363,7 @@ a{
 }
 /* end counter list */
 
- .myProject .row-project{
+.myProject .row-project{
    display: flex;
    flex-direction: row;
    /* position: relative; */
@@ -409,7 +413,7 @@ a{
    margin-bottom: 60px;
    transform: scale(1.1);
 }
-/* ============== services =============== */
+/* ================My Services starting ==================== */
 .myService{
    background-color: #1B1100;
 }
@@ -458,4 +462,6 @@ a{
 .myService .rowService .colService .more-details:hover {
    background-color: #C69749;
 }
+/* ================Contac starting ==================== */
+/* ================Footer starting ==================== */
 
