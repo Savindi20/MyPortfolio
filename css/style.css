@@ -15,13 +15,12 @@
    }
 .cover .nav{
 
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    background: linear-gradient(180deg, #000000 0%, rgba(77, 77, 77, 0.697856) 99.97%, rgba(255, 255, 255, 0) 99.98%, rgba(255, 255, 255, 0.03125) 99.99%);
-
-   
- }
+   overflow: hidden;
+   position: fixed;
+   width: 100%;
+   background: linear-gradient(180deg, #000000 0%, rgba(77, 77, 77, 0.697856) 99.97%, rgba(255, 255, 255, 0) 99.98%, rgba(255, 255, 255, 0.03125) 99.99%);
+   z-index: 1;
+   }
 
  .cover .nav a{
     margin-top: 5px;
@@ -414,14 +413,49 @@ a{
 .myService{
    background-color: #1B1100;
 }
-.myService .rowService{
-   display: flex;
-   flex-direction: row;
-   /* position: relative; */
+.myService .rowService {
+    box-sizing: border-box;
+    /* margin-top: 2rem; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
 }
-.myService .rowService .colService{
-   border: 2px solid red;
+.myService .rowService .colService {
+   border: 2px solid #4D4848;
    width: 30%;
-
+   height: 15rem;
+   margin-right: 1.5rem;
+   padding: 1rem;
+   border-radius: 30px;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+.myService .rowService .colService img {
+   width: 100px;
+   height: 100px;
+   margin-left: 9rem;
+   margin-top: 3.5rem;
+}
+.myService .rowService .colService img:hover {
+   transform: scale(1.1);
+}
+.myService .rowService .colService h3 {
+   margin-top: 1rem;
+   text-align: center;
 
 }
+.myService .rowService .colService .more-details {
+   background: #101010;
+   border: 1.5px solid #4D4848;
+   border-radius: 30px;
+   color: #fff;
+   margin-left: 9rem;
+   margin-top: 1rem;
+   width: 100px;
+   height: 30px;
+}
+.myService .rowService .colService .more-details:hover {
+   background-color: #524725;
+}
+
