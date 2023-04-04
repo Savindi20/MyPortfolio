@@ -251,7 +251,6 @@ a{
 .skillsTools{
    background-color: #110B00;
 }
-
 .skillsTools .box-container .box span {
    font-size: 1.5rem;
    background: #222;
@@ -287,7 +286,7 @@ a{
    border-left: 0.2rem solid #fff;
    position: relative;
    border-style: dotted;
-
+   margin-top: 4rem;
 }
 
 .skillsTools .img-container {
@@ -332,7 +331,6 @@ a{
    margin-left: 80px;
    transform: translate(-50%, -50%);
    padding-left: 75rem;
-
 }
 
 .myProject .col {
@@ -348,6 +346,7 @@ a{
    border-radius: 1rem;
    border: 1px solid #FFFFFF;
    border-radius: 20px;
+   margin-top: 4rem;
    /* box-shadow: 0 0 20px -6px #FCC419; */
 }
 
@@ -428,11 +427,11 @@ a{
 .myService .rowService .colService {
    border: 2px solid #4D4848;
    width: 30%;
-   height: 15rem;
+   height: 20rem;
    margin-right: 1.5rem;
    padding: 1rem;
    border-radius: 30px;
-   margin-top: 3rem;
+   margin-top: 5rem;
    margin-bottom: 3rem;
 }
 .myService .rowService .colService img {
@@ -463,5 +462,6 @@ a{
    background-color: #C69749;
 }
 /* ================Contac starting ==================== */
+
 /* ================Footer starting ==================== */
 
