@@ -137,6 +137,7 @@
    /* position: relative; */
    display: flex;
    flex-direction: row;
+   height: 620px;
 }
 
 .about .photo img {
@@ -273,6 +274,7 @@ a {
 
 .skillsTools {
    background-color: #110B00;
+   height: 620px;
 }
 
 .skillsTools .box-container .box span {
@@ -446,6 +448,7 @@ a {
 /* ================My Services starting ==================== */
 .myService {
    background-color: #1B1100;
+   height: 620px;
 }
 
 .myService .rowService {
@@ -464,7 +467,7 @@ a {
    margin-right: 1.5rem;
    padding: 1rem;
    border-radius: 30px;
-   margin-top: 5rem;
+   margin-top: 8rem;
    margin-bottom: 3rem;
 }
 
@@ -501,13 +504,112 @@ a {
 }
 
 /* ================Contac starting ==================== */
-#ContacMe>section {}
+.contacMe {
+   background-color: #251700;
+   height: 550px;
+}
 
+.contacMe .rowContact {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   color: #fff;
+}
+
+.contacMe .rowContact .colContact {
+   width: 30rem;
+   margin-left: 4rem;
+   padding-top: 2rem;
+}
+
+.contacMe .rowContact .colContact ul{
+   overflow: hidden;
+   position: flex;
+   text-decoration: none;
+   padding-left: 30px;
+   /* margin-top: 10px; */
+}
+
+.contacMe .rowContact .colContact i {
+   color: #C69749;
+   font-size: 40px;
+   padding-top: 2rem;
+   text-decoration: none;
+}
+.contacMe .rowContact .colContact li{
+   list-style: none;
+   text-decoration: none;
+   font-size: 20px;
+}
+.contacMe .rowContact .colContact li h3{
+   background-color: #73603236;
+   padding-left: 70px;
+   border-radius: 30px;
+   width: 300px;
+}
+.contacMe .rowContact .colContact a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+   margin-bottom: 15px;
+   /* border: 1px solid black; */
+  
+   
+}
+.contacMe form{
+   flex:1 1 45rem; 
+   padding:2rem; 
+   margin:2rem; 
+   margin-bottom: 4rem; 
+   background-color: #7c7c7cb0;
+   border-radius: 10px;
+   width: 500px;
+}
+.contacMe form .box{
+   padding:0.5rem; 
+   margin:0; 
+   background:#1A1A1A;
+   color:#fff;
+   text-transform: none;
+   font-size: 1rem;
+   width:100%; 
+   border-radius: 10px;
+}
+.contacMe form .box::placeholder{
+   text-transform: capitalize;  
+}
+.contacMe form .message{
+   height: 5rem;
+   margin-left: 1px;
+   resize: none;
+   text-transform: capitalize;
+   font-size: 1.2rem;
+}
+.contacMe form .message::-webkit-scrollbar {
+   display: none;
+}
+.contacMe form .btn{
+   width: 150px;
+   border: 2px solid #C69749;
+   background-color: #000000;
+   border-radius: 10px;
+   height: 40px;
+   color: white;
+   font-size: 1.2rem;
+   margin-left: 350px;
+}
+.contacMe form .btn:hover{
+   background: #2e1d00;
+}
+.contacMe form .btn img{
+   width: 25px;
+   height: 25px;
+}
 /* ================Footer starting ==================== */
 footer {
    background: linear-gradient(180deg, #251700 -16.89%, #000000 100%);
    height: 100px;
-   position:relative;
+   position: relative;
    bottom: 0;
    margin: auto;
 }
@@ -542,13 +644,14 @@ footer {
 .social-icon-menu-footer a:hover {
    background: #C69749;
 }
-footer > h5 {
+
+footer>h5 {
    font-weight: bold;
    text-align: center;
-  
+
    color: white;
    bottom: 20px;
    margin: auto;
 
-   
+
 }
