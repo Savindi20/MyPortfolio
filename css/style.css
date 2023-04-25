@@ -229,6 +229,10 @@
 
 }
 
+.dovnload-cv:hover{
+   border: 3px solid white;
+}
+
 .dovnload-cv i {
    font-size: 14px;
    /* padding-right: 10px; */
@@ -343,7 +347,7 @@ a {
 }
 
 .skillsTools .img-container .logo:hover img {
-   transform: scale(1.2);
+   transform: scale(1.1);
 }
 
 /* ================Projects starting ==================== */
@@ -441,7 +445,8 @@ a {
 }
 
 .myProject .click-Here img:hover {
-   margin-bottom: 60px;
+   /* margin-bottom: 10px; */
+   border: 1px solid white;
    transform: scale(1.1);
 }
 
