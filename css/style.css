@@ -5,15 +5,21 @@
 
 /* ================header starting ==================== */
 .cover {
-   background-image: url('/asset/images/2.jpg');
-   /* background-color: green; */
-   height: 100vh;
+  /* background-image: url('/asset/images/2.jpg'); */
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/asset/images/thukipolio.jpg');
+
    width: 100%;
    background-size: cover;
    background-position: center;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; 
+   /* background-color:grey;
+   background-blend-mode: multiply; */
+  
 
-
+}
+*{
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 /* ================Nav starting ==================== */
@@ -37,16 +43,12 @@
    font-style: normal;
    text-decoration: none;
    padding-right: 30px;
-
-
+   border-radius: 10px;
 }
 
 .nav a:hover {
    /* color: #C69749; */
-   background-color: #C69749;
-   border-radius: 10px;
-
-
+   background-color: #c6964986;
 }
 
 /* ================Social icon-menu starting ==================== */
@@ -104,30 +106,33 @@
 }
 
 .hire {
-   width: 200px;
-   height: 60px;
+   width: 170px;
+   height: 50px;
    margin-left: 50px;
    margin-top: 20px;
-   background: #282A3A;
-   border: 5px solid #271F0C;
-   border-radius: 30px;
-   background: white;
+   background:  black;
+   border: 2px solid #C69749;
+   border-radius: 20px;
    font-family: Inter;
    font-style: normal;
    font-weight: 400;
    font-size: 30px;
+   color: whitesmoke;
 
 }
 
 .hire:hover {
-   background: #C69749;
+   background: #232526;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
 }
 
 /* ========================== done======================================== */
 
 /* ================About Me starting ==================== */
 .about {
-   background-color: #0C0800;
+   background-color: #000000;
    /* height: 100vh;
    width: 100%; */
 
@@ -158,7 +163,7 @@
 .about .details {
    margin: 5;
    padding: 5px;
-   background: rgba(115, 95, 50, 0.4);
+   background: rgba(41, 41, 41, 0.377);
    /* position: relative; */
    /* height: 400px;
  width: 650px; */
@@ -277,7 +282,7 @@ a {
 } */
 
 .skillsTools {
-   background-color: #110B00;
+   background-color: #070500;
    height: 620px;
 }
 
@@ -352,7 +357,7 @@ a {
 
 /* ================Projects starting ==================== */
 .myProject {
-   background-color: #160E00;
+   background-color: #0a0700;
 }
 
 .myProject .row {
@@ -447,12 +452,13 @@ a {
 .myProject .click-Here img:hover {
    /* margin-bottom: 10px; */
    border: 1px solid white;
+   border-radius: 10px;
    transform: scale(1.1);
 }
 
 /* ================My Services starting ==================== */
 .myService {
-   background-color: #1B1100;
+   background-color: #070500;
    height: 620px;
 }
 
@@ -510,7 +516,7 @@ a {
 
 /* ================Contac starting ==================== */
 .contacMe {
-   background-color: #251700;
+   background-color: #000000;
    height: 550px;
 }
 
@@ -596,7 +602,7 @@ a {
 .contacMe form .btn{
    width: 150px;
    border: 2px solid #C69749;
-   background-color: #000000;
+   background-color: #0f0f0f;
    border-radius: 10px;
    height: 40px;
    color: white;
@@ -604,7 +610,8 @@ a {
    margin-left: 350px;
 }
 .contacMe form .btn:hover{
-   background: #2e1d00;
+   background-color: #000000;
+   color: #C69749;
 }
 .contacMe form .btn img{
    width: 25px;
@@ -620,7 +627,6 @@ footer {
 }
 
 .social-icon-menu-footer {
-   width: 100px;
    display: flex;
    flex-direction: row;
    padding: 0px;
@@ -653,10 +659,7 @@ footer {
 footer>h5 {
    font-weight: bold;
    text-align: center;
-
    color: white;
    bottom: 20px;
    margin: auto;
-
-
 }
