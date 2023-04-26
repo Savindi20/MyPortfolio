@@ -14,7 +14,7 @@
     <!-- globla  style -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-wide initial scale=1 user scalelable=no">
-
+    <script src="/js/script.js"></script>
     <!-- <meta http-equiv="refresh" content="3; ">> -->
     <link rel="icon" href="asset/images/Savii1234.png">
 </head>
@@ -23,12 +23,12 @@
 <body>
     <header class="cover" id="home">
         <nav class="nav">
-            <a href="#ContacMe">ContacMe</a>
-            <a href="#Services">Services</a>
-            <a href="#Projects">Projects</a>
-            <a href="#skilltools">Skills&Tools</a>
-            <a href="#AboutMe">AboutMe</a>
-            <a href="#home">Home</a>
+            <a href="#ContacMe" class="links">ContacMe</a>
+            <a href="#Services" class="links">Services</a>
+            <a href="#Projects" class="links">Projects</a>
+            <a href="#skilltools"class="links">Skills&Tools</a>
+            <a href="#AboutMe" class="links">AboutMe</a>
+            <a href="#home" class="links">Home</a>
 
         </nav>
         <!-- =========================== -->
@@ -437,6 +437,18 @@
         </aside>
         <h5>Developed By Savindi Dadallage &copy;</h5>
     </footer>
+    <script>
+          const a = document.querySelectorAll(".links");
+    const sec = document.querySelectorAll("section");
+    function activeMenu() {
+        let len = sec.length;
+        while (--len && window.scrollY + 50 < sec[len].offsetTop) { }
+        a.forEach(ltx => ltx.classList.remove("active"));
+        a[len].classList.add("active");
+    }
+    activeMenu();
+    window.addEventListener("scroll", activeMenu);
+    </script>
 </body>
 
 </html>

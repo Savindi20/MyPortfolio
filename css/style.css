@@ -97,6 +97,9 @@
 
 
 }
+.active{
+   background: #C69749;
+}
 
 .cover .name h4 {
    color: #fff;
@@ -152,12 +155,13 @@
    margin-top: 125px;
    margin-left: 50px;
    border-radius: 0px 20px 0px 20px;
-   border: 5px solid #C69749;
+   border: 3px solid #C69749;
 
 }
 
 .about .photo img:hover {
-   transform: scale(1.1);
+   /* transform: scale(1.1); */
+   border: 3px solid #ffffff;
 }
 
 .about .details {
@@ -408,6 +412,7 @@ a {
 }
 
 .myProject .row-project .col-project {
+   background-color: #0c0c0ce8;
    border: 2px solid #C69749;
    border-radius: 30px;
    width: 20%;
@@ -472,7 +477,8 @@ a {
 }
 
 .myService .rowService .colService {
-   border: 2px solid #4D4848;
+   background-color: #13131396;
+   border: 2px solid #C69749;
    width: 30%;
    height: 20rem;
    margin-right: 1.5rem;
