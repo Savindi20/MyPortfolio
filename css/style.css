@@ -7,7 +7,7 @@
 .cover {
   /* background-image: url('/asset/images/2.jpg'); */
    height: 100vh;
-   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/asset/images/thukipolio.jpg');
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../asset/images/thukipolio.jpg');
    width: 100%;
    background-size: cover;
    background-position: center;
